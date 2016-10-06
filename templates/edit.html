@@ -1,0 +1,69 @@
+<html>
+<head>
+  <title>
+  </title>
+<link rel="stylesheet" type"text/css" href="../css/register.css">
+</head>
+<body>
+<section class="clearfix">
+
+<div class="pagewrap">
+  <div class= "profilepic">
+    <img class="logo" src="../static_files/logo.png">
+  </div>
+
+  <div class="forms">
+
+    <form method= "post">
+
+      <p><input class="answers" type="text" placeholder="{{name}}" name="name"/>
+      </p>
+
+      <p><input class="answers" type="text" placeholder="{{year}}" list="Ylist" name="year">
+        <datalist id="Ylist">
+          <option label="Freshman" value="Freshman">
+          <option label="Sophomore" value="Sophomore">
+          <option label="Junior" value="Junior">
+          <option label="Senior" value="Senior">
+
+      <p><input class="answers" type"text" placeholder="{{university}}" list="Ulist" name="school">
+        <datalist id="Ulist">
+            <option label="Johns Hopkins University" value="Johns Hopkins University">
+            <option label="Notre Dame" value="Notre Dame">
+            <option label="Fordham University" value="Fordham University">
+                    </select>
+      </p>
+
+      <p><input class="answers" type"text" placeholder="{{major}}" list="Mlist" name="major">
+        <datalist id="Mlist">
+            <option label="Computer Science" value="Computer Science">
+            <option label="Biology" value="Biology">
+            <option label="Liberal Arts" value="Liberal Arts">
+                    </select>
+      </p>
+      <p><h3>Subject(s) to Tutor - <i> Only </i>for tutors: </h3>
+          <input type="checkbox" name="subject" value="Calculus1">Calculus1
+          <input type="checkbox" name="subject" value="Intro to CS">Intro to CS
+          <input type="checkbox" name="subject" value="Statistics">Statistics
+      </p>
+      <div>
+        <textarea name="description" rows="4" cols="50">{{description}}</textarea>
+      </div>
+      <div class="button2">
+     <button class="button" type="submit" onclick="alert('Profile Information Saved')">Save</button>
+      </div>
+ </div>
+
+  </form>
+
+  <div>
+</div>
+
+
+
+
+</section>
+</body>
+</html>
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help

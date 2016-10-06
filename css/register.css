@@ -1,0 +1,60 @@
+body {
+  background-image:linear-gradient(to right, #A0E7AF, #A0E7AF 50%, #7ACAF6 50%, #7ACAF6);
+}
+
+.clearfix {
+  display: block;
+  content: " ";
+  clear: both;
+}
+.logo{
+  width: 300px;
+  margin-left: 160px;
+  margin-top: 20px;
+  border-style: double;
+}
+
+.pagewrap {
+  height: 700px;
+  width: 600px;
+  margin: 70px auto;
+  /*border-style: dashed;*/
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, .5);
+}
+
+.profilepic {
+  height: 150px;
+  width: auto;
+  border-style: none;
+}
+
+.forms {
+  border-style: none;
+  height: 500px;
+  width: auto;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+
+textarea {
+    resize: none;
+    height:150px;
+}
+
+.answers {
+  height: 30px;
+  width: 300px;
+  text-align: center;
+  font-size: 15px;
+}
+.button {
+  height: 35px;
+  width: 130px;
+
+
+}
+.button2{
+  padding-left: 75px;
+  margin-top: 5px;
+}

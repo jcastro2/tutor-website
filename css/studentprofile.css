@@ -1,0 +1,152 @@
+body {
+  background-color: #eeedef;
+}
+
+.clearfix {
+  display: block;
+  content: " ";
+  clear: both;
+}
+textarea {
+    resize: none;
+    height:150px;
+}
+.sheader{
+  width: auto;
+  height: 50px;
+  background-color: #7ACAF6;
+  margin-bottom: 5px;
+}
+.theader{
+  width: auto;
+  height: 50px;
+  background-color: #A0E7AF;
+}
+.pagewrap {
+  height: 700px;
+  width: 600px;
+  margin: auto;
+  border-style: none;
+  background-color: white;
+}
+.profile {
+  height: 150px;
+  width: 150px;
+  border-style:solid;
+  margin-bottom: 15px;
+
+  margin: auto;
+
+
+}
+.sinfo{
+  height: 150px;
+  width: auto;
+  border-style: solid;
+  margin:auto;
+  border-width: 10px;
+  background-color: #7ACAF6;
+  border-color: transparent;
+}
+.grey {
+  padding-top: 1px;
+  width: auto;
+  height: 50px;
+  background-color: 	#eeedef;
+  text-align: center;
+  padding-bottom: 6px;
+
+
+}
+.tinfo{
+  height: 150px;
+  width: auto;
+  border-style: solid;
+  margin:auto;
+  border-width: 10px;
+  background-color: #70db70;
+  border-color: transparent;
+
+}
+
+.padding{
+  padding-left: 20px;
+  padding-top:5px;
+}
+span {
+  font-weight: bold;
+}
+
+.name{
+
+  text-align:center;
+
+}
+.top{
+  height: 170px;
+  width: auto;
+  border-style:none;
+  text-align: center;
+  padding-top: 10px;
+}
+.bottom {
+  height:300px;
+  width: auto;
+  border-style: dotted;
+
+}
+.logo {
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.return {
+  float:right;
+  margin-right: 10px;
+}
+.answers {
+  width: 400px;
+  height: 100px;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.emails {
+  border-style: none;
+  /*margin-left: 200px;*/
+
+}
+.button2 {
+  margin-left: 400px;
+  float: right;
+}
+.sdescription {
+  height: 150px;
+  width: auto;
+  border-style: solid;
+  margin:auto;
+  border-width: 10px;
+  background-color: #4d94ff;
+  border-color: transparent;
+
+
+}
+.tdescription {
+  height: 150px;
+  width: auto;
+  border-style: solid;
+  margin:auto;
+  border-width: 10px;
+  background-color: #47d147;
+  border-color: transparent;
+
+}
+#desc{
+  font-size: 20px;
+  font-family: 'Voltaire', sans-serif;
+
+}
+#infos{
+  font-size: 20px;
+  padding-left: 5px;
+}

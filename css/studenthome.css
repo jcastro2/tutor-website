@@ -1,0 +1,78 @@
+body {
+  background-color: #eeedef;
+}
+.clearfix {
+  display: block;
+  content: " ";
+  clear: both;
+}
+.sheader{
+  width: auto;
+  height: 50px;
+  background-color: #7ACAF6;
+}
+.theader{
+  width: auto;
+  height: 50px;
+  background-color: #A0E7AF;
+}
+.pagewrap {
+  height: 700px;
+  width: 600px;
+  margin: auto;
+  border-style: none;
+  background-color: white;
+  color: blue;
+}
+.profile {
+  height: 270px;
+  width: auto;
+  border-style: none;
+  float: left;;
+  margin-left: 110px;
+  margin-top: 10px;
+
+}
+
+.name{
+  float:;
+  font-size: 30px;
+  text-align: center;
+}
+
+.bottom {
+  height:400px;
+  width: auto;
+  border-style: none;
+  position: relative;
+  visibility: visible;
+}
+
+.pic{
+  height: 260px;
+  width: 600px;
+  border-style: none;
+  margin-left: 10px;
+
+}
+.logo {
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.search {
+  border-style: hidden;
+  margin-top: 20px;
+  width: auto;
+  margin-left: 80px;
+}
+.searchtext {
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.searchbar {
+  height: 10px;
+  width: 50px;
+}
